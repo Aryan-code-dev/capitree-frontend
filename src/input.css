@@ -1,0 +1,35 @@
+/* Center the container horizontally and align to the left */
+
+  
+  /* CSS for the input and button */
+  .input-container {
+    display: inline-block;
+    padding-top: 10px;
+    align-items: center;
+    gap: 10px; /* Add some space between input and button */
+  }
+  
+  .input-field {
+    padding: 10px; /* Increase padding for the input field */
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 10px; /* Increase font size for better visibility */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    border-radius: 4px; /* Add rounded corners */
+  }
+  
+  .add-button {
+    padding: 10px 20px; /* Increase padding for the button */
+    font-size: 10px; /* Increase font size for better visibility */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  /* Add hover styles for the button */
+  .add-button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+  

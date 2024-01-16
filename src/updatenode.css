@@ -1,0 +1,25 @@
+.updatenode__controls {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 4;
+    font-size: 12px;
+  }
+  .input-container {
+    position:absolute;
+    right: 500px;
+    top: 10px;
+    z-index: 4;
+    font-size: 12px;
+  }
+  
+  .updatenode__controls path {
+    display: block;
+  }
+  .updatenode__controls requestType {
+    display: block;
+  }
+  .updatenode__controls returnType {
+    display: block;
+  }
+  

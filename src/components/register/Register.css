@@ -1,0 +1,52 @@
+.register {
+    width: 400px;
+    margin: auto;
+    background: #09b1cf;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    color: #fff;
+    padding-right: 3pc;
+}
+
+.register > input {
+    border-radius: 8px;
+    border: 2px solid #dde2df;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.register > .button {
+    background: #142c4b;
+    border: 1px solid #142c4b;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.75rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.register > .button:hover {
+    background: #0e5aaf;
+}
+
+.register > div {
+    margin: 1rem 0;
+}
+
+/* Additional Styling for Centering */
+body {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+}

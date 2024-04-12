@@ -18,7 +18,7 @@
     border-radius: 4px; /* Add rounded corners */
   }
   
-  .add-button {
+  .button {
     padding: 10px 20px; /* Increase padding for the button */
     font-size: 10px; /* Increase font size for better visibility */
     background-color: #007bff; /* Button background color */
@@ -27,7 +27,6 @@
     border-radius: 4px; /* Add rounded corners */
     cursor: pointer; /* Change cursor on hover */
   }
-  
   /* Add hover styles for the button */
   .add-button:hover {
     background-color: #0056b3; /* Darker background color on hover */

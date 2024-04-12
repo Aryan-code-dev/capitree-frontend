@@ -23,8 +23,8 @@ const Login = () => {
     const login = async () => {
         const res = await axios.post("http://localhost:3001/login/", user);
         if(res.status===200){
-            const token = res.data.result.token;
-            auth.login(token);
+            const result = res.data.result;
+            auth.login(result);
             navigate("/dashboard");
         }         
         
